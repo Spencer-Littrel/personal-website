@@ -1,0 +1,386 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500&family=Sansita&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #e5e5e5;
+}
+
+/*Header*/
+#header {
+  padding-top: 2em;
+  padding-bottom: 2em;
+  display: flex;
+  justify-content: space-between;
+}
+
+#logo {
+  padding-left: 2em;
+}
+
+.menubars {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-evenly;
+}
+
+.menuitem1 {
+  width: 10em;
+  height: 38px;
+  border-radius: 100px 0px 0px 100px;
+  background-color: #6b0780;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  color: #e5e5e5;
+  padding-left: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.menuitem2 {
+  width: 20em;
+  height: 38px;
+  border-radius: 100px 0px 0px 100px;
+  background-color: #6b0780;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  color: #e5e5e5;
+  padding-left: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.menuitem3 {
+  width: 30em;
+  height: 38px;
+  border-radius: 100px 0px 0px 100px;
+  background-color: #6b0780;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  color: #e5e5e5;
+  padding-left: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.menuitem1:hover {
+  background-color: #13e8ff;
+  color: #292929;
+  transition: 300ms;
+  transition-timing-function: ease-in;
+}
+
+.menuitem2:hover {
+  background-color: #13e8ff;
+  color: #292929;
+  transition: 300ms;
+  transition-timing-function: ease-in;
+}
+
+.menuitem3:hover {
+  background-color: #13e8ff;
+  color: #292929;
+  transition: 300ms;
+  transition-timing-function: ease-in;
+}
+
+/*Artwork*/
+#artwork {
+  background-image: url(https://i.imgur.com/qp6DDQ3.jpg);
+  background-color: #091332;
+  background-position: -520px -600px;
+  padding-bottom: 20px;
+  height: 480px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  align-content: flex-end;
+  margin: 0;
+}
+
+#tagline {
+  font-family: Sansita;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 0.2px;
+  color: #e5e5e5;
+  margin-top: 500px;
+}
+
+.newreality {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 0.1px;
+  color: #6b6b6b;
+}
+
+/*About Section*/
+#aboutsection {
+  display: flex;
+}
+
+/*About Section*/
+#aboutbox {
+  width: 630px;
+  height: 850px;
+  background-color: #292929;
+  border-radius: 0px 60px 60px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  padding: 1em;
+}
+
+#aboutme {
+  width: 480px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 36px;
+  color: #ffffff;
+}
+
+.personal {
+  display: flex;
+  margin-top: 1em;
+}
+
+.lists {
+  margin-left: 4em;
+  margin-right: 4em;
+  font-family: Montserrat;
+  line-height: 12px;
+  color: #ffffff;
+}
+
+.smalltitle {
+  font-weight: normal;
+  font-size: 18px;
+}
+
+.items {
+  font-weight: 100;
+  font-size: 18px;
+}
+
+/*Contact Information*/
+#contact {
+  margin: 2em;
+  margin-left: 16em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 8em;
+}
+
+#profile {
+  width: 338px;
+  height: 338px;
+  border-radius: 1000px;
+  border: solid 8px #6b0780;
+  overflow: hidden;
+}
+
+.pic {
+  width: 100%;
+  height: auto;
+}
+
+.contact {
+  font-family: Montserrat;
+  font-size: 22px;
+  line-height: 27px;
+} /*add links*/
+
+.contitle {
+  font-weight: normal;
+}
+
+.info {
+  font-weight: 300;
+}
+
+/*Programs and Expertise*/
+#prog-exp {
+  display: flex;
+}
+
+#programs {
+  margin-left: 10em;
+  margin-right: 10em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h2 {
+  font-family: Montserrat;
+  font-weight: normal;
+  font-size: 90px;
+  line-height: 1px;
+  color: #ffffff;
+  -webkit-text-stroke: 2px #6b0780;
+}
+
+.icons {
+  width: 105px;
+  height: 100px;
+  border-radius: 18px;
+  margin: 10px;
+}
+
+/*.icons:hover {
+  box-shadow: 0px 0px 20px 3px #13E8FF;
+  border-radius: 18px;
+  transition: 300ms;
+  transition-timing-function: ease-in;
+}*/
+/*This is to link to the programs later on.*/
+
+#expertise {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 10em;
+  margin-right: 10em;
+}
+
+.box {
+  display: flex;
+}
+
+.expertise {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 27px;
+}
+
+/*Lower section of the page*/
+#lower {
+  background-color: #292929;
+  margin-top: 2em;
+  padding: 1em;
+}
+
+/*Designs and Projects*/
+#designs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-family: Montserrat;
+  font-weight: normal;
+  font-size: 90px;
+  line-height: 1px;
+  color: #292929;
+  -webkit-text-stroke: 1px #13e8ff;
+  margin-bottom: 1em;
+}
+
+.grid {
+  max-width: 1100px;
+  /* Grid */
+  display: grid;
+  grid-template-columns: 3.6fr 3.058fr 3fr;
+  grid-gap: 20px;
+  grid-template-areas:
+    " cover cover cover "
+    " menu packaging packaging "
+    " menu exposure flyer "
+    " pshop exposure flyer "
+    " pshop exposure flyer "
+    " pshop pump pump ";
+}
+
+img {
+  max-width: 100%;
+}
+
+.bookcover {
+  grid-area: cover;
+}
+
+.packaging {
+  grid-area: packaging;
+}
+
+.breakfastmenu {
+  grid-area: menu;
+}
+
+.doubleexposure {
+  grid-area: exposure;
+}
+
+.flyer {
+  grid-area: flyer;
+}
+
+.photoshop {
+  grid-area: pshop;
+}
+
+.gaspump {
+  grid-area: pump;
+}
+
+/*Search and Jump Buttons*/
+/*Lock to bottom of page*/
+#buttons {
+  display: flex;
+} /*Fix jump button*/
+
+.button {
+  margin: 2px;
+}
+
+/*Footer*/
+#footer {
+  background-color: #6b0780;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: -15px;
+  margin-top: 10px;
+}
+
+.copyright {
+  margin-right: 1px;
+  height: 10px;
+}
+
+.nrcopy {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 10px;
+  text-align: center;
+  color: #ffffff;
+}
